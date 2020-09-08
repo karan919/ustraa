@@ -1,0 +1,54 @@
+.heading {
+  margin: 1rem;
+}
+
+.slick-slide {
+  margin: 0 1rem;
+}
+
+.slick-slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 31vw;
+}
+
+.tab-title {
+  font-size: 22px;
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  size: 3rem;
+}
+
+.slick-slider,
+.slick-list,
+.slick-track {
+  height: 18rem;
+}
+
+.tab {
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .slick-slider,
+  .slick-list,
+  .slick-track {
+    height: 14vh;
+  }
+  .slick-slide img {
+    width: 40vw;
+  }
+  .tab-title {
+    font-size: 12px;
+    position: absolute;
+    top: 41%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    color: white;
+    size: 3rem;
+  }
+}
